@@ -1,0 +1,71 @@
+/* hero */
+.hero {
+ background-color: var(--hero-footer-color);
+}
+
+.hero-title {
+    color: var(--primary-background-color)
+}
+
+.hero-button {
+    color: var(--primary-background-color);
+    background-color: var(--accent-color);
+}
+
+/* advantages */
+
+.advantages .title {
+    color: var(--primary-text-color);
+}
+
+.advantages .text {
+    color: var(--title-text-color);
+} 
+
+/* work */
+
+.work > .title {
+    color: var(--primary-text-color);
+}
+
+
+/* our team */
+
+.team-title {
+    color: var(--primary-text-color);
+}
+
+.team-text {
+    color: var(--title-text-color)
+}
+
+/* portfolio */
+
+/* examples*/
+
+.nav-list > li {
+    list-style: none;
+}
+.nav-button {
+    color: var(--primary-text-color);
+    background-color: var(--section-color);
+    text-decoration: none; 
+}
+
+.nav-button:focus,
+.nav-button:hover{
+    color: var(--primary-background-color);
+    background-color: var(--accent-color);
+}
+
+.examples-list {
+    list-style: none;
+}
+
+.example-title {
+    color: var(--primary-text-color);
+}
+
+.example-text {
+    color: var(--title-text-color);
+}

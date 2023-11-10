@@ -1,0 +1,83 @@
+/* головний колір тексту #212121 */
+/* додатковий колір тексту rgba(117, 117, 117, 1) */
+/* білий #FFFFFF */
+/* акцент #2196F3 */
+/* колір фону на деяких секціях #F5F4FA */
+/* колір фону в герой та футер #2F303A */
+
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: rgba(117, 117, 117, 1);
+    --accent-color: #2196F3;
+    --primary-background-color: #FFFFFF;
+    --hero-footer-color: #2F303A;
+    --section-color: #F5F4FA;
+} 
+
+/* header */
+/* logo */
+.logo{
+    text-decoration: none;
+    color: #000;
+}
+
+.logo.footer-logo {
+    color: var(--primary-background-color);
+}
+
+.logo > .title {
+    color: var(--accent-color);
+}
+
+/* primary settings list */
+.list {
+    list-style: none;
+}
+
+/* site-nav */
+.site-nav .link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-color)
+}
+
+/* site-contact */
+
+.site-contact .link{
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.site-contact .link:hover,
+.site-contact .link:focus{
+    color: var(--accent-color);
+}
+/* end header */
+
+/* footer */
+/* address */
+
+footer {
+    background-color: var(--hero-footer-color);
+}
+
+.address-text {
+    color: var(--primary-background-color);
+}
+
+/* параметри щоб зробити ефект поточної сторінки */
+/* для посиланання в site-nav додаємо 2 класа link і current  */
+/* <ul class="site-nav list">
+    <li><a href="./index.html" class="link сurrent">Студія</a></li>
+    <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+    <li><a href="" class="link">Контакти</a></li>
+</ul> */
+/* тоді в стилях додаємо  */
+
+/* .site-nav .link.current {
+    сolor : колір для поточної сторінки
+} */
